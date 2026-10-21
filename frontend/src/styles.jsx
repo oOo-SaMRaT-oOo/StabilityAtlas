@@ -188,6 +188,8 @@ export function FooterSignature({
           position:relative;
           overflow:hidden;
           transition:all .35s ease;
+          cursor:pointer;
+          text-decoration:none;
         }
 
         .signature-card::before{
@@ -237,20 +239,43 @@ export function FooterSignature({
         .pulse-dot{
           box-shadow:0 0 12px #00f0ff;
         }
+
+        .portfolio-hint{
+          position:absolute;
+          bottom:8px;
+          right:14px;
+          font-size:10px;
+          letter-spacing:.15em;
+          color:#22d3ee;
+          opacity:0;
+          transform:translateY(6px);
+          transition:all .25s ease;
+          pointer-events:none;
+          text-transform:uppercase;
+        }
+
+        .signature-card:hover .portfolio-hint{
+          opacity:1;
+          transform:translateY(0);
+        }
       `}</style>
 
-      <div className="
-        signature-card
-        bg-slate-950/90
-        border border-slate-800
-        rounded-2xl
-        px-10
-        py-5
-        flex
-        items-center
-        gap-5
-      ">
-
+      <a
+        href="https://heysammy.framer.wiki"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="
+          signature-card
+          bg-slate-950/90
+          border border-slate-800
+          rounded-2xl
+          px-10
+          py-5
+          flex
+          items-center
+          gap-5
+        "
+      >
         {/* Status Dot */}
         <span className="relative flex h-3 w-3">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
@@ -299,7 +324,12 @@ export function FooterSignature({
           </div>
         </div>
 
-      </div>
+        {/* Hover Hint */}
+        <span className="portfolio-hint">
+          ↗ Click to visit portfolio
+        </span>
+
+      </a>
     </footer>
   );
 }
