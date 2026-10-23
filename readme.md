@@ -2,7 +2,7 @@
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
 ![React](https://img.shields.io/badge/React-Frontend-61DAFB)
-#### *~ By Samrat Malla | Electrical Engineering Student*
+#### ~ By Samrat Malla | Electrical Engineering Student
 
 ---
 
