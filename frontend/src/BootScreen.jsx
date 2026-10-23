@@ -9,7 +9,7 @@ const bootSteps = [
 
 // Configuration
 const DURATION_PER_STEP_MS = 600; // Total run time
-const END_HOLD_PAUSE_MS = 200;    // Pause at 100% completion before redirection
+const END_HOLD_PAUSE_MS = 300;    // Pause at 100% completion before redirection
 
 export default function BootScreen({ onFinish }) {
   // Start at -1 so no step shows as checked initially
@@ -117,7 +117,10 @@ export default function BootScreen({ onFinish }) {
           color: #7dd3fc;
           font-size: 18px;
           opacity: 0.35;
-          transition: all 0.25s ease-in-out;
+          transition:
+          opacity .25s ease,
+          color .25s ease,
+          text-shadow .25s ease;
         }
 
         .active {
