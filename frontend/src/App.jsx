@@ -174,7 +174,7 @@ export default function App() {
         </div>
       );
   }
-};  
+};
 
 const [bootFinished,setBootFinished]=useState(false);
 
@@ -185,7 +185,6 @@ const [bootFinished,setBootFinished]=useState(false);
       />
     );
   }
-
 
 /* HEADER and SLIDER */
 
