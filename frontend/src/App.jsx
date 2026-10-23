@@ -176,6 +176,16 @@ export default function App() {
   }
 };  
 
+const [bootFinished,setBootFinished]=useState(false);
+
+  if(!bootFinished){
+    return (
+      <BootScreen
+        onFinish={()=>setBootFinished(true)}
+      />
+    );
+  }
+
 
 /* HEADER and SLIDER */
 
