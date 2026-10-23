@@ -9,7 +9,7 @@
 #  Project Preview
 ### *An End-to-End Physics Informed AI Platform for Low-Inertia Grid Stability Prediction*
 
-[▶ Watch Demo](assets/demo.mov)
+[[▶ Watch Demo](assets/demo.mov)](https://github.com/user-attachments/assets/aea88aec-609a-432f-8c7c-7d24a4c2a22b)
 
 ![Dashboard](assets/demogif.gif)
 
