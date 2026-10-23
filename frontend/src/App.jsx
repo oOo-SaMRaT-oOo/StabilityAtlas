@@ -16,7 +16,7 @@ import {
 } from 'lucide-react';
 
 import { GlowingLine,Header_text,GlowingLineSub,FooterSignature} from './styles';
-
+import BootScreen from './BootScreen';
 import FrequencyChart from './FrequencyChart';
 
 
