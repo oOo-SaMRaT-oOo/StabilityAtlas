@@ -11,8 +11,6 @@
 
 [▶ **Watch Live Demo**](https://github.com/user-attachments/assets/aea88aec-609a-432f-8c7c-7d24a4c2a22b)
 
-![Dashboard](assets/demogif.gif)
-
 
 ---
 
