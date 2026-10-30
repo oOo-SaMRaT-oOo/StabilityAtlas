@@ -9,7 +9,7 @@
 #  Project Preview
 ### *An End-to-End Physics Informed AI Platform for Low-Inertia Grid Stability Prediction*
 
-[![Launch StabilityAtlas](https://⚡_Launch-StabilityAtlas_AI-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://stabilityatlas.vercel.app/)
+[![Live Application](https://img.shields.io/badge/Live_Application-StabilityAtlas-0F172A?style=for-the-badge&logo=vercel&logoColor=white)](https://stabilityatlas.vercel.app/)
 
 [▶ **Watch Live Demo**](https://github.com/user-attachments/assets/aea88aec-609a-432f-8c7c-7d24a4c2a22b)
 
