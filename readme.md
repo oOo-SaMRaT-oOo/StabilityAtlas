@@ -11,6 +11,8 @@
 
 [▶ **Watch Live Demo**](https://github.com/user-attachments/assets/aea88aec-609a-432f-8c7c-7d24a4c2a22b)
 
+[![Try Live App](https://img.shields.io/badge/🚀_Try_Live_App-StabilityAtlas-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://stabilityatlas.vercel.app/)
+
 
 ---
 
