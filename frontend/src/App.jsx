@@ -19,6 +19,7 @@ import { GlowingLine,Header_text,GlowingLineSub,FooterSignature} from './styles'
 import BootScreen from './BootScreen';
 import FrequencyChart from './FrequencyChart';
 
+import Footer from './components/footer';
 
 export default function App() {
   
@@ -654,7 +655,7 @@ return (
     </div>
     <br></br><GlowingLine/>
 
-    <FooterSignature />
+    <Footer />
 
         </div>
 
